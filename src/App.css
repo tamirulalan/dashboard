@@ -1,0 +1,52 @@
+:root{
+  --color-bg: #1f1f38;
+  --color-bg-vaiant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgb(77,181,255,0.4);
+  --color-grey :#fff;
+  --color-white :rgb(217, 219, 220);
+  --color-light: rgb(255,255,255, 0.5);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%
+}
+
+.App {
+  /* margin-top: 20px; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.for-sidebar{
+  left: 20px;
+  
+  height: 100%;
+  width: 25%;
+  position: absolute;
+  padding-top: 40px;
+  background-color:var(--color-grey)
+}
+.for-other{
+  width: 65%;
+  margin-left:200px;
+  background-color:var(--color-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.top{
+  height: 40%;
+}
+.bottom{
+  height: 50%;
+}
